@@ -38,11 +38,11 @@ cowsay Now Adding Permisions
 #cd $HOME/.config
 #git clone https://gitlab.com/thelinuxcast/nvim.git
 
-
+cowsay Ive Done Everything You Said Now Updating.
 
 #Updating 
 echo "Final Updates"
-sudo pacman -Syu && yay -Syu
+sudo pacman -Syu && yay -Syu 
 
-cowsay Ive Done Everything You Said
+echo " Everthing Done"
 
