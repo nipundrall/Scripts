@@ -17,7 +17,7 @@ sudo pacman -S hyprland nautilus eog gimp libreoffice-still discord kitty neofet
 cowsay "Now I'm downloading Dotfiles"
 cd && git clone https://github.com/nipundrall/NDS-Hyprland.git
 
-Cowsay "Don't Look like this I'm Working"
+cowsay "Don't Look like this I'm Working"
 mv NDS-Hyprland ndshypr
 
 cd $ndshypr
