@@ -7,12 +7,12 @@ sudo pacman -S cowsay
 
 #Installing Dependencies (arch only)
 #echo "Installing Dependencies"
-cowsay I'm installing Dependencies
+cowsay Im installing Dependencies
 sudo pacman -S hyprland nautilus eog gimp libreoffice-still discord kitty neofetch pulsemixer pavucontrol waybar git vim hyprpaper hyprlock hypridle wofi gparted cliphist gnome-disk-utility gnome-weather gnome-calculator swaync grub-customizer polkit-kde-agent ttf-jetbrains-mono-nerd ttf-jetbrains-mono qt5-graphicaleffects qt5-quickcontrols qt5-quickcontrols2 &&sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && yay -S google-chrome wlogout nerd-fonts-complete ttf-icomoon-feather wayland-logout 
 
 #Download Dots
 #echo "Downloading Dotfiles"
-cowsay Now I'm downloading Dotfiles
+cowsay Now Im downloading Dotfiles
 cd && git clone https://github.com/nipundrall/NDS-Hyprland.git
 
 Cowsay Don't Look like this I'm Working
@@ -44,5 +44,5 @@ cowsay Now Adding Permisions
 echo "Final Updates"
 sudo pacman -Syu && yay -Syu
 
-cowsay I've Done Everything You Said
+cowsay Ive Done Everything You Said
 
