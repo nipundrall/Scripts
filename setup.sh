@@ -37,5 +37,5 @@ sudo cp -r $HOME/ndshypr/grub/NDSGrub /boot/grub/themes
 
 
 #Updating 
-echo "Final Updaates"
+echo "Final Updates"
 sudo pacman -Syu && yay -Syu
