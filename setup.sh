@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ndshypr="$HOME/ndshypr"
+#ndshypr="$HOME/NDS-Hyprland"
 #gitthings="$HOME/Downloads/gitthings"
 #scripts="$HOME/Downloads/gitthings/scripts"
 sudo pacman -S cowsay
@@ -18,18 +18,21 @@ cowsay "Now I'm downloading Dotfiles"
 cd && git clone https://github.com/nipundrall/NDS-Hyprland.git
 
 cowsay "Don't Look like this I'm Working"
-mv NDS-Hyprland ndshypr
+#mv NDS-Hyprland ndshypr
 
-cd $ndshypr
+cd NDS-Hyprland
 
-cp -r $HOME/ndshypr/hypr ~/.config
-cp -r $HOME/ndshypr/waybar ~/.config
-cp -r $HOME/ndshypr/wlogout ~/.config
-cp -r $HOME/ndshypr/neofetch ~/.config
-cp -r $HOME/ndshypr/wofi ~/.config
-sudo cp -r $HOME/ndshypr/sddm/sddm.conf.d /etc/
-sudo cp -r $HOME/ndshypr/sddm/sddm/themes/Sugar-Candy /usr/share/sddm/themes
-sudo cp -r $HOME/ndshypr/grub/NDSGrub /boot/grub/themes
+cp -r $HOME/NDS-Hyprland/hypr $HOME/.config
+cp -r $HOME/NDS-Hyprland/waybar $HOME/.config
+cp -r $HOME/NDS-Hyprland/wlogout $HOME/.config
+cp -r $HOME/NDS-Hyprland/neofetch $HOME/.config
+cp -r $HOME/NDS-Hyprland/wofi $HOME/.config
+sudo cp -r $HOME/NDS-Hyprland/sddm/sddm.conf.d /etc/
+sudo cp -r $HOME/NDS-Hyprland/sddm/sddm/themes/Sugar-Candy /usr/share/sddm/themes
+sudo cp -r $HOME/NDS-Hyprland/grub/NDSGrub /boot/grub/themes
+sudo mv $HOME/NDS-Hyprland/vim/vimrc .vimrc
+sudo mv $HOME/NDS-Hyprland//bashrc/bashrc .bashrc
+
 
 cowsay "Now Adding Permisions"
 
@@ -54,4 +57,5 @@ sudo pacman -Syu && yay -Syu
 cowsay "I've Done Everything You Said"
 
 cowsay " Long Live $USER "
+
 
