@@ -36,6 +36,7 @@ cowsay "Now Adding Permisions"
 sudo chmod +x ~/.config/waybar/modules/mediaplayer.py
 sudo chmod +x ~/.config/waybar/modules/nt_tray.sh
 sudo chmod +x ~/.config/waybar/modules/launch.sh
+sudo chmod +x ~/.config/waybar/modules/update.sh
 
 #cd $gitthings && git clone https://gitlab.com/thelinuxcast/scripts.git
 #cd $scripts
