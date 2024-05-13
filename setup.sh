@@ -22,16 +22,22 @@ cowsay "Don't Look like this I'm Working"
 
 cd NDS-Hyprland
 
-cp -r $HOME/NDS-Hyprland/hypr $HOME/.config
-cp -r $HOME/NDS-Hyprland/waybar $HOME/.config
-cp -r $HOME/NDS-Hyprland/wlogout $HOME/.config
-cp -r $HOME/NDS-Hyprland/neofetch $HOME/.config
-cp -r $HOME/NDS-Hyprland/wofi $HOME/.config
+ln -s ~/NDS-Hyprland/hypr/ ~/.config/hypr
+ln -s ~/NDS-Hyprland/waybar/ ~/.config/waybar
+ln -s ~/NDS-Hyprland/wlogout/ ~/.config/wlogout
+ln -s ~/NDS-Hyprland/wofi/ ~/.config/wofi
+ln -s ~/NDS-Hyprland/neofetch/ ~/.config/neofetch
+
+#cp -r $HOME/NDS-Hyprland/hypr $HOME/.config
+#cp -r $HOME/NDS-Hyprland/waybar $HOME/.config
+#cp -r $HOME/NDS-Hyprland/wlogout $HOME/.config
+#cp -r $HOME/NDS-Hyprland/neofetch $HOME/.config
+#cp -r $HOME/NDS-Hyprland/wofi $HOME/.config
 sudo cp -r $HOME/NDS-Hyprland/sddm/sddm.conf.d /etc/
 sudo cp -r $HOME/NDS-Hyprland/sddm/sddm/themes/Sugar-Candy /usr/share/sddm/themes
 sudo cp -r $HOME/NDS-Hyprland/grub/NDSGrub /boot/grub/themes
 sudo mv $HOME/NDS-Hyprland/vim/vimrc .vimrc
-sudo mv $HOME/NDS-Hyprland//bashrc/bashrc .bashrc
+sudo mv $HOME/NDS-Hyprland/bashrc/bashrc .bashrc
 
 
 cowsay "Now Adding Permisions"
@@ -51,7 +57,7 @@ sudo chmod +x ~/.config/waybar/modules/update.sh
 
 
 #Updating 
-echo "Final Updates"
+cowsay "Final Updates"
 sudo pacman -Syu && yay -Syu
 
 cowsay "I've Done Everything You Said"
