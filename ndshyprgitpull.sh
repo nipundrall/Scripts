@@ -6,8 +6,5 @@ cd NDS-Hyprland
 
 git pull origin main
 
-cp $HOME/NDS-Hyprland/vim/vimrc .vimrc
-cp $HOME/NDS-Hyprland/bashrc/bashrc .bashrc
-
 cowsay " its' Done"
 
