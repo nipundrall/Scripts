@@ -36,8 +36,8 @@ ln -s ~/NDS-Hyprland/neofetch/ ~/.config/neofetch
 sudo cp -r $HOME/NDS-Hyprland/sddm/sddm.conf.d /etc/
 sudo cp -r $HOME/NDS-Hyprland/sddm/sddm/themes/Sugar-Candy /usr/share/sddm/themes
 sudo cp -r $HOME/NDS-Hyprland/grub/NDSGrub /boot/grub/themes
-sudo mv $HOME/NDS-Hyprland/vim/vimrc .vimrc
-sudo mv $HOME/NDS-Hyprland/bashrc/bashrc .bashrc
+cp $HOME/NDS-Hyprland/vim/vimrc .vimrc
+cp $HOME/NDS-Hyprland/bashrc/bashrc .bashrc
 
 
 cowsay "Now Adding Permisions"
