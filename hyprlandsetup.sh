@@ -10,7 +10,7 @@ cowsay "Sit Back and Relax I'll Do everthing"
 #Installing Dependencies (arch only)
 #echo "Installing Dependencies"
 cowsay "I'll Start with installing Dependencies"
-sudo pacman -S hyprland thunar eog gimp libreoffice-still discord kitty neofetch pulsemixer xorg-xhost pavucontrol waybar git vim imagemagick hyprpaper hyprlock hypridle wofi gparted cliphist gnome-disk-utility ntfs-3g gnome-weather gnome-calculator swaync grub-customizer polkit-kde-agent ttf-jetbrains-mono-nerd ttf-jetbrains-mono qt5-graphicaleffects qt5-quickcontrols qt5-quickcontrols2 && sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && yay -S google-chrome wlogout nerd-fonts-complete ttf-icomoon-feather wayland-logout 
+sudo pacman -S hyprland thunar eog gimp qt6ct libreoffice-still discord kitty neofetch pulsemixer xorg-xhost pavucontrol waybar git vim imagemagick hyprpaper hyprlock hypridle wofi gparted cliphist gnome-disk-utility ntfs-3g gnome-weather gnome-calculator swaync grub-customizer polkit-kde-agent ttf-jetbrains-mono-nerd ttf-jetbrains-mono qt5-graphicaleffects qt5-quickcontrols qt5-quickcontrols2 && sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && yay -S google-chrome wlogout nerd-fonts-complete ttf-icomoon-feather wayland-logout 
 
 #Download Dots
 #echo "Downloading Dotfiles"
