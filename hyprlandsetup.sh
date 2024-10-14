@@ -10,7 +10,7 @@ cowsay "Sit Back and Relax I'll Do everthing"
 #Installing Dependencies (arch only)
 #echo "Installing Dependencies"
 cowsay "I'll Start with installing Dependencies"
-sudo pacman -S hyprland thunar thunar-archive-plugin eog gimp qt6ct libreoffice-still discord kitty neofetch pulsemixer xorg-xhost pavucontrol waybar git vim imagemagick hyprpaper hyprlock hypridle wofi gparted cliphist gnome-disk-utility ntfs-3g gnome-weather gnome-calculator swaync grub-customizer polkit-kde-agent ttf-jetbrains-mono-nerd ttf-jetbrains-mono qt5-graphicaleffects qt5-quickcontrols qt5-quickcontrols2 font-manager && sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && yay -S google-chrome wlogout nerd-fonts-complete ttf-icomoon-feather wayland-logout usbimager 
+sudo pacman -S hyprland thunar thunar-archive-plugin eog gimp qt6ct libreoffice-still pacman-contrib discord kitty neofetch pulsemixer xorg-xhost pavucontrol waybar git vim imagemagick hyprpaper hyprlock hypridle wofi gparted cliphist gnome-disk-utility ntfs-3g gnome-weather gnome-calculator swaync grub-customizer polkit-kde-agent ttf-jetbrains-mono-nerd ttf-jetbrains-mono qt5-graphicaleffects qt5-quickcontrols qt5-quickcontrols2 font-manager && sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && yay -S google-chrome wlogout nerd-fonts-complete ttf-icomoon-feather wayland-logout usbimager 
 
 #Download Dots
 #echo "Downloading Dotfiles"
@@ -22,11 +22,11 @@ cowsay "Don't Look like this I'm Working"
 
 cd NDS-Hyprland
 
-ln -s ~/NDS-Hyprland/hypr/ ~/.config/hypr/
-ln -s ~/NDS-Hyprland/waybar/ ~/.config/waybar/
-ln -s ~/NDS-Hyprland/wlogout/ ~/.config/wlogout/
-ln -s ~/NDS-Hyprland/wofi/ ~/.config/wofi/
-ln -s ~/NDS-Hyprland/neofetch/ ~/.config/neofetch/
+ln -s ~/NDS-Hyprland/hypr/ ~/.config/hypr
+ln -s ~/NDS-Hyprland/waybar/ ~/.config/waybar
+ln -s ~/NDS-Hyprland/wlogout/ ~/.config/wlogout
+ln -s ~/NDS-Hyprland/wofi/ ~/.config/wofi
+ln -s ~/NDS-Hyprland/neofetch/ ~/.config/neofetch
 ln -s ~/NDS-Hyprland/Bashrc/bashrc .bashrc
 ln -s ~/NDS-Hyprland/vim/vimrc .vimrc
 #cp -r $HOME/NDS-Hyprland/hypr $HOME/.config
