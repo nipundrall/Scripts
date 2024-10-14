@@ -16,7 +16,6 @@ sudo pacman -S hyprland thunar thunar-archive-plugin eog gimp qt6ct libreoffice-
 #echo "Downloading Dotfiles"
 cowsay "Now I'm downloading Dotfiles"
 git clone https://github.com/nipundrall/NDS-Hyprland.git
-cd NDS-Hyprland
 
 cowsay "Don't Look like this I'm Working"
 #mv NDS-Hyprland ndshypr
