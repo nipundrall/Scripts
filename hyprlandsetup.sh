@@ -22,11 +22,11 @@ cowsay "Don't Look like this I'm Working"
 
 cd NDS-Hyprland
 
-ln -s ~/NDS-Hyprland/hypr/ ~/.config/hypr
-ln -s ~/NDS-Hyprland/waybar/ ~/.config/waybar
-ln -s ~/NDS-Hyprland/wlogout/ ~/.config/wlogout
-ln -s ~/NDS-Hyprland/wofi/ ~/.config/wofi
-ln -s ~/NDS-Hyprland/neofetch/ ~/.config/neofetch
+ln -s ~/NDS-Hyprland/hypr/ ~/.config/hypr/
+ln -s ~/NDS-Hyprland/waybar/ ~/.config/waybar/
+ln -s ~/NDS-Hyprland/wlogout/ ~/.config/wlogout/
+ln -s ~/NDS-Hyprland/wofi/ ~/.config/wofi/
+ln -s ~/NDS-Hyprland/neofetch/ ~/.config/neofetch/
 ln -s ~/NDS-Hyprland/Bashrc/bashrc .bashrc
 ln -s ~/NDS-Hyprland/vim/vimrc .vimrc
 #cp -r $HOME/NDS-Hyprland/hypr $HOME/.config
