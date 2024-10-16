@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #ndshypr="$HOME/NDS-Hyprland"
-#gitthings="$HOME/Downloads/gitthings"
 #scripts="$HOME/Downloads/gitthings/scripts"
+
 sudo pacman -S cowsay
 # cowsay Installed
 cowsay "Sit Back and Relax I'll Do everthing"
@@ -47,14 +47,6 @@ sudo chmod +x ~/.config/waybar/modules/mediaplayer.py
 sudo chmod +x ~/.config/waybar/modules/nt_tray.sh
 sudo chmod +x ~/.config/waybar/modules/launch.sh
 sudo chmod +x ~/.config/waybar/modules/update.sh
-
-#cd $gitthings && git clone https://gitlab.com/thelinuxcast/scripts.git
-#cd $scripts
-#sudo cp *.sh weather.py /usr/local/bin
-
-#cd $HOME/.config
-#git clone https://gitlab.com/thelinuxcast/nvim.git
-
 
 
 #Updating 
