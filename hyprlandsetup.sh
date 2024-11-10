@@ -10,7 +10,7 @@ cowsay "Sit Back and Relax I'll Do everthing"
 #Installing Dependencies (arch only)
 #echo "Installing Dependencies"
 cowsay "I'll Start with installing Dependencies"
-sudo pacman -S hyprland thunar thunar-archive-plugin eog gimp qt6ct libreoffice-still pacman-contrib discord kitty neofetch pulsemixer udiskie alsa-utils usbutils nwg-look noto-fonts-emoji xorg-xhost pavucontrol man-db waybar s-tui git vim imagemagick hyprpaper hyprlock hypridle wofi gparted cliphist gnome-disk-utility ntfs-3g gnome-weather gnome-calculator swaync grub-customizer ttf-jetbrains-mono-nerd ttf-jetbrains-mono qt5-graphicaleffects qt5-quickcontrols qt5-quickcontrols2 font-manager && sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && yay -S google-chrome wlogout grimblast libcava cava nerd-fonts-complete ttf-icomoon-feather wayland-logout usbimager 
+sudo pacman -S hyprland eog gimp qt6ct nautilus libreoffice-still pacman-contrib discord kitty neofetch pulsemixer udiskie alsa-utils usbutils nwg-look noto-fonts-emoji xorg-xhost pavucontrol man-db waybar s-tui git vim imagemagick hyprpaper hyprlock hypridle wofi gparted cliphist gnome-disk-utility ntfs-3g gnome-weather gnome-calculator swaync grub-customizer ttf-jetbrains-mono-nerd ttf-jetbrains-mono qt5-graphicaleffects qt5-quickcontrols qt5-quickcontrols2 font-manager && sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && yay -S google-chrome wlogout grimblast libcava cava nerd-fonts-complete ttf-icomoon-feather wayland-logout usbimager 
 
 #Download Dots
 #echo "Downloading Dotfiles"
