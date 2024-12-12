@@ -1,8 +1,5 @@
 #!/bin/bash
 
-#ndshypr="$HOME/NDS-Hyprland"
-#scripts="$HOME/Downloads/gitthings/scripts"
-
 sudo pacman -S cowsay
 # cowsay Installed
 cowsay "Sit Back and Relax I'll Do everthing"
